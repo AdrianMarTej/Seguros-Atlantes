@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Perito</title>
+    <link rel="icon" href="resources/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html"><img src="resources/logo.png" alt="Seguros Atlantes"
+                    class="img-fluid" style="width: 100px; height: auto;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Incidentes.html">Reportar Incidente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PerfilCliente.html">Mi Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="PerfilPerito.html">Portal Perito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Inicio de sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Incidentes pendientes de revisión</h1>
+        <br>
+        <div class="row">
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Número</th>
+                            <th>Fecha</th>
+                            <th>Cliente</th>
+                            <th>Descripción</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>INC-12345</td>
+                            <td>2024-03-25</td>
+                            <td>María Pérez</td>
+                            <td>Robo de equipo electrónico</td>
+                            <td>Enviada</td>
+                        </tr>
+                        <tr>
+                            <td>INC-45678</td>
+                            <td>2024-04-01</td>
+                            <td>Juan López</td>
+                            <td>Daños por agua en vivienda</td>
+                            <td>Enviada</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br><br>
+                <h1 class="text-center">Mis Incidentes</h1>
+                <br>
+
+                <h3>En revisión</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Número</th>
+                            <th>Fecha</th>
+                            <th>Cliente</th>
+                            <th>Descripción</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>INC-67890</td>
+                            <td>2024-04-10</td>
+                            <td>Ana García</td>
+                            <td>Rotura de cristales</td>
+                            <td>En revisión por el perito</td>
+                        </tr>
+                        <tr>
+                            <td>INC-23456</td>
+                            <td>2024-04-15</td>
+                            <td>Pedro Sánchez</td>
+                            <td>Incendio en cocina</td>
+                            <td>En revisión por el perito</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Completadas</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Número</th>
+                            <th>Fecha</th>
+                            <th>Cliente</th>
+                            <th>Descripción</th>
+                            <th>Estado</th>
+                            <th>Fecha Resolución</th>
+                            <th>Resolución</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>INC-12345</td>
+                            <td>2024-03-25</td>
+                            <td>María Pérez</td>
+                            <td>Robo de equipo electrónico</td>
+                            <td>Completada</td>
+                            <td>2024-04-18</td>
+                            <td>Se ha confirmado el robo y se ha iniciado el proceso de indemnización.</td>
+                        </tr>
+                        <tr>
+                            <td>INC-45678</td>
+                            <td>2024-04-01</td>
+                            <td>Juan López</td>
+                            <td>Daños por agua en vivienda</td>
+                            <td>Completada</td>
+                            <td>2024-04-20</td>
+                            <td>Se ha reparado el daño por agua y se ha reembolsado el costo de la reparación al
+                                cliente.</td>
+                        </tr>
+                        <tr>
+                            <td>INC-67890</td>
+                            <td>2024-04-10</td>
+                            <td>Ana García</td>
+                            <td>Rotura de cristales</td>
+                            <td>Completada</td>
+                            <td>2024-04-12</td>
+                            <td>Se han reemplazado los cristales rotos y se ha reembolsado el deducible al cliente.</td>
+                        </tr>
+                        <tr>
+                            <td>INC-23456</td>
+                            <td>2024-04-15</td>
+                            <td>Pedro Sánchez</td>
+                            <td>Incendio en cocina</td>
+                            <td>Completada</td>
+                            <td>2024-04-22</td>
+                            <td>Se han cubierto los daños causados por el incendio y se ha brindado asistencia al
+                                cliente para la reubicación temporal.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5">
+        <div class="container text-center sticky-bottom">
+            <p>&copy; 2024 Seguros Atlantes</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
